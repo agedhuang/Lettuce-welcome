@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Circular;
+  src: url(./Font/Circular-Book.woff.ttf) format("truetype");
+}
+*{
+  --dark-green: #004F24;
+  --light-green: #b4fc42;
+}
+body{
+  background-color: var(--dark-green);
+  color: var(--light-green);
+  font-family: Circular, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1{
+  display: none;
+}
+
+p{
+  font-size: 30px;
+  line-height: 140%;
+  margin-block: 28px;
+}
+
+main{
+  max-width: 800px;
+  margin-inline: 28px;
+}
+
+a{
+  color: var(--light-green);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2.5px;
+}
+
+.small-text{
+  font-size: 20px;
+  margin-inline-start: 220px;
+}
+
+.pink{
+  color: pink;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 100px;
+}
